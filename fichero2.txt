@@ -1,0 +1,4 @@
+raton 5
+avion 2 
+casa 1 0
+barco 4

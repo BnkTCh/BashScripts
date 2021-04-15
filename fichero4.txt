@@ -1,0 +1,15 @@
+2010:Junio:23:Carla:Martínez:Equipo-de-básquet
+2011:Abril:22:Yoel:Alonso:Clases-de-danza
+2009:Febrero:21:Bernat:Molina:Equipo-de-básquet
+2012:Enero:22:Noelia:Bernabeu:Equipo-de-básquet
+2010:Mayo:11:Arnau:Silvestre:Clases-de-judo
+2011:Febrero:23:Lucia:Pérez:Clases-de-danza
+2013:Mayo:20:Gerard:Reverte:Clases-de-judo
+2009:Julio:03:Oriol:López:Clases-de-básquet
+2010:Marzo:02:Isaac:Meler:Club-de-ajedrez
+2012:Octubre:03:Miquel:Roca:Equipo-de-fútbol-sala
+2009:Abril:25:Carmen:Grandes:Clases-de-natación
+2014:Diciembre:30:Andrés:Romero:Club-de-ajedrez
+2010:Enero:25:Irene:García:Clases-de-danza
+2011:Noviembre:22:Isabel:Valle:Equipo-de-fútbol-sala
+2010:Mayo:14:María:Segovia:Equipo-de-básquet
