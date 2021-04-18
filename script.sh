@@ -1,13 +1,32 @@
 # !/bin/bash
+cat nombres.txt
+echo "Qué nombre deseeas reemplazar?"
+read nombre
+echo "Introduce tu nombre"
+read minombre
+echo "a continuación se reemplazará el nombre elegido por el tuyo"
+read -rsp $'\nPresiona enter para continuar...\n'
 
-echo "Reemplazamos la palabra ride por SING"
+# Reemplaza la variable "nombre" por "minombre".
+sed "s/$nombre/$minombre/" nombres.txt
 
-# solicita la tecla enter para continuar con el script.
-read -rsp $'Presiona enter para continuar...\n'
+sleep 1
 
-# Reemplaza la palabra "ride" por "SING".
-sed 's/ride/SING/' Ride.txt
+echo "Muestra el 3° campo de cada fila"
+read -rsp $'\nPresiona enter para continuar...\n'
+# awk Muestra el 3° campo de cada fila.
+sed "s/$nombre/$minombre/" nombres.txt | awk '{print $3}'
 
-read -rsp $'Presiona enter para continuar...\n'
+sleep 1
 
-awk '{print $3}' Ride.txt
+echo "Lo ordenamos alfabéticamente"
+read -rsp $'\nPresiona enter para continuar...\n'
+# sort lo ordena alfabeticamente.
+sed "s/$nombre/$minombre/" nombres.txt | awk '{print $3}' | sort
+
+sleep 1
+
+echo "Mostramos la cantidad de veces que se repiten los nombres"
+read -rsp $'\nPresiona enter para continuar...\n'
+# uniq -c muestra la cantidad de veces que se repite cada nombre.
+sed "s/$nombre/$minombre/" nombres.txt | awk '{print $3}' | sort | uniq -c
