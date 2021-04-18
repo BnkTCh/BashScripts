@@ -29,4 +29,11 @@ sleep 1
 echo "Mostramos la cantidad de veces que se repiten los nombres"
 read -rsp $'\nPresiona enter para continuar...\n'
 # uniq -c muestra la cantidad de veces que se repite cada nombre.
+sed "s/$nombre/$minombre/" nombres.txt | awk '{print $3}' | sort | cut -b -1
+
+sleep 1
+
+echo "Mostramos la primera letra de cada nombre"
+read -rsp $'\nPresiona enter para continuar...\n'
+# uniq -c muestra la cantidad de veces que se repite cada nombre.
 sed "s/$nombre/$minombre/" nombres.txt | awk '{print $3}' | sort | uniq -c
