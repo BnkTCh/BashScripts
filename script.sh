@@ -13,6 +13,7 @@ sed "s/$nombre/$minombre/" nombres.txt
 sleep 1
 
 echo -e "\nMuestra el 3° campo de cada fila\n"
+
 read -rsp $'\nPresiona enter para continuar...\n'
 # awk Muestra el 3° campo de cada fila.
 sed "s/$nombre/$minombre/" nombres.txt | awk '{print $3}'
