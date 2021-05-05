@@ -5,3 +5,5 @@
 ip=`dig +short $1`
 
 echo "La ip de $1 es $ip"
+
+nmap $ip

@@ -9,3 +9,4 @@ numps=$((1 + $lines))
 echo -e "\n"
 ps -Ao user,uid,comm,pid,pcpu,tty --sort=-pcpu | head -n "$numps"
 
+#preguntar cual matar...
