@@ -10,3 +10,10 @@ echo -e "\n"
 ps -Ao user,uid,comm,pid,pcpu,tty --sort=-pcpu | head -n "$numps"
 
 #preguntar cual matar...
+
+echo -e "\nEscribe el PID del proceso que deseas matar\n"
+read pid
+
+kill -9 $pid
+
+exit
